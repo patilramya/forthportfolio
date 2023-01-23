@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{
+            background-color: blanchedalmond;
+            color: blue;
+            text-align: center;
+        }
+        h1:hover{
+            text-decoration: underline;
+        }
+        h2{
+            background-color: brown;
+            color: aqua;
+            text-align: center;
+        }
+        h2:hover{
+            background-color: blue;
+            color:yellow;
+            text-decoration: underline;
+            margin-right: 50%;
+            text-shadow: 3px 3px white;
+            transition: 1s;
+            cursor: pointer;
+            box-shadow: 1px 1px 1px 1px black;
+        }
+        #c{
+            border: 2px solid black;
+            padding:10%;
+            margin: 200px;
+            margin-right: 500px;
+            margin-left: 500px;
+            border-radius: 500%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-left: 100px;
+            background-color: white;
+        }
+        #b{
+            border: 2px solid black;
+            margin-right: 500px;
+            margin-left: 500px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>JS Elements</h1>
+    <h2>Colors</h2>
+    <div id="c"></div>
+    <div style="border:2px solid black ; display: flex; padding-left: 35%; background-color: antiquewhite; padding: 10px;" >
+        <button style="background-color:red ; color: white; margin-left: 450px;" onclick="document.getElementById('c').style='background-color:red'">RED</button>
+        <button style="background-color:blue; color: white; margin-left: 10px;" onclick="document.getElementById('c').style='background-color:blue'">BLUE</button>
+        <button style="background-color:green ; color: white; margin-left: 10px;" onclick="document.getElementById('c').style='background-color:green'">GREEN</button>
+        <button style="background-color:yellow; color: black; margin-left: 10px;" onclick="document.getElementById('c').style='background-color:yellow'">YELLOW</button>
+        <button style="background-color:orange; color: white; margin-left: 10px;" onclick="document.getElementById('c').style='background-color:orange'">ORANGE</button>
+        <button style="background-color:white; color:black; margin-left: 10px;" onclick="document.getElementById('c').style='background-color:white'">RESET</button>
+    </div>
+    <h2>Fruits</h2>
+    <div id="b">
+        <img id="fruit" src="white.png" height="200px" width="200px">
+    </div>
+    <div style="border:2px solid black ; display: flex; background-color: antiquewhite; padding: 10px;" >
+        <button style="background-color:yellow ; color:black; margin-left: 400px;" onclick="document.getElementById('fruit').src='mango.png'">MANGO</button>
+        <button style="background-color:red; color: white; margin-left: 10px;" onclick="document.getElementById('fruit').src='apple.png'">APPLE</button>
+        <button style="background-color:yellow ; color:black; margin-left: 10px;" onclick="document.getElementById('fruit').src='banana.png'">BANANA</button>
+        <button style="background-color:orange; color: white; margin-left: 10px;" onclick="document.getElementById('fruit').src='orange.png'">ORANGE</button>
+        <button style="background-color:tomato; color: white; margin-left: 10px;" onclick="document.getElementById('fruit').src='strawberry.png'">STRAWBERRY</button>
+    </div>
+    <h2>Alphabets</h2>
+    <div id="b">
+        <img id="alpha" src="white.png" height="200px" width="200px">
+    </div>
+    <div style="border:2px solid black ; display: flex; padding:10px; background-color: antiquewhite;" >
+        <button style="background-color:white; color:black; margin-left: 200px" onclick="document.getElementById('alpha').src='apple.png'">A</button>
+        <button style="background-color:white; color:black; margin-left: 10px;" onclick="document.getElementById('alpha').src='banana.png'">B</button>
+        <button style="background-color:white; color:black; margin-left: 10px;" onclick="document.getElementById('alpha').src='cat.png'">C</button>
+        <button style="background-color:white; color:black; margin-left: 10px;" onclick="document.getElementById('alpha').src='dog.png'">D</button>
+        <button style="background-color:white; color:black; margin-left: 10px;" onclick="document.getElementById('alpha').src='egg.png'">E</button>
+        <button style="background-color:white; color:black; margin-left: 10px;" onclick="document.getElementById('alpha').src='fish.png'">F</button>
+        <button style="background-color:white; color:black; margin-left: 10px;" onclick="document.getElementById('alpha').src='grapes.png'">G</button>
+        <button style="background-color:white; color:black; margin-left: 10px;" onclick="document.getElementById('alpha').src='hat.png'">H</button>
+        <button style="background-color:white; color:black; margin-left: 10px;" onclick="document.getElementById('alpha').src='ice.png'">I</button>
+        <button style="background-color:white; color:black; margin-left: 10px;" onclick="document.getElementById('alpha').src='jug.png'">J</button>
+        <button style="background-color:white; color:black; margin-left: 10px;" onclick="document.getElementById('alpha').src='kite.png'">K</button>
+        <button style="background-color:white; color:black; margin-left: 10px;" onclick="document.getElementById('alpha').src='lion.png'">L</button>
+        <button style="background-color:white; color:black; margin-left: 10px;" onclick="document.getElementById('alpha').src='mango.png'">M</button>
+        <button style="background-color:white; color:black; margin-left: 10px;" onclick="document.getElementById('alpha').src='nest.png'">N</button>
+        <button style="background-color:white; color:black; margin-left: 10px;" onclick="document.getElementById('alpha').src='orange.png'">O</button>
+        <button style="background-color:white; color:black; margin-left: 10px;" onclick="document.getElementById('alpha').src='parrot.png'">P</button>
+        <button style="background-color:white; color:black;margin-left: 10px;" onclick="document.getElementById('alpha').src='queen.png'">Q</button>
+        <button style="background-color:white; color:black;margin-left: 10px;" onclick="document.getElementById('alpha').src='rabbit.png'">R</button>
+        <button style="background-color:white; color:black;margin-left: 10px;" onclick="document.getElementById('alpha').src='sun.png'">S</button>
+        <button style="background-color:white; color:black;margin-left: 10px;" onclick="document.getElementById('alpha').src='train.png'">T</button>
+        <button style="background-color:white; color:black;margin-left: 10px;" onclick="document.getElementById('alpha').src='umbrella.png'">U</button>
+        <button style="background-color:white; color:black;margin-left: 10px;" onclick="document.getElementById('alpha').src='van.png'">V</button>
+        <button style="background-color:white; color:black;margin-left: 10px;" onclick="document.getElementById('alpha').src='watch.png'">W</button>
+        <button style="background-color:white; color:black;margin-left: 10px;" onclick="document.getElementById('alpha').src='xmas.png'">X</button>
+        <button style="background-color:white; color:black;margin-left: 10px;" onclick="document.getElementById('alpha').src='yatch.png'">Y</button>
+        <button style="background-color:white; color:black;margin-left: 10px;" onclick="document.getElementById('alpha').src='zebra.png'">Z</button>
+    </div>
+</body>
+</html>
